@@ -2,6 +2,7 @@
 
 .main__article-window{
   background-color:white;
+  padding-bottom:45px;
 
 }
 
@@ -22,28 +23,34 @@
 .articlew__paragraph{
 color:#4a4a4a;
 font-size:18px;
+margin-bottom:45px;
 }
 
+.articlew__golink-container{
+
+}
 .articlew__go-link{
-  color: orange;
+  color:#f26002;
   background-color:white;
-  border:2px solid orange;
+  border:2px solid #f26002;
   border-radius:22px;
   padding:10px 25px;
   text-transform:capitalize;
   font-size:20px;
-  margin:45px 0;
+
 }
 
 /*article reasons*/
 
 .main__article-reasons{
   background-color:#eff9ff;
+  padding-top:30px;
   text-align:center;
 }
 .articler__title{
   font-size:24px;
   margin-bottom:45px;
+  margin-top:30px;
 }
 .article__reasons-container{
   list-style:none;
@@ -66,3 +73,19 @@ font-size:18px;
   font-size:18px;
   margin:0;
 }
+
+.article__more-button{
+  border: none;
+  font: inherit;
+  color:white;
+  background-color:#f26002;
+  border-radius:22px;
+  padding:10px 25px;
+  text-transform:capitalize;
+  font-size:20px;
+  margin:45px 0;
+    :hover{
+      cursor:pointer;
+     }
+}
+
