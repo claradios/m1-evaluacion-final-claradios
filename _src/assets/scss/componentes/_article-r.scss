@@ -17,6 +17,8 @@
   text-align:center;
   margin:0;
   padding:0;
+  @media all and (min-width:768px) { display:grid;
+     grid-template-columns: 1fr 1fr 1fr;}
 }
 .article__reasons-item{
   margin-bottom:45px;
@@ -24,8 +26,17 @@
 .article__item-container{
   margin:0 auto;
   width:180px;
-
 }
+.col1{
+  @media all and (min-width:768px) {grid-column:1/2;}
+ }
+ .col2{
+  @media all and (min-width:768px) {grid-column:2/3;}
+ }
+ .col3{
+  @media all and (min-width:768px) {grid-column:3/4;}
+ }
+
 .article__reasons-title{
   font-family:$font-title;
   color:$color-black;
