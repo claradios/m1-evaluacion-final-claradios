@@ -1,4 +1,7 @@
 /*article window*/
+#first-article{
+  transform:translateY(-500px)
+}
 
 .main__article-window{
   background-color:white;
@@ -27,7 +30,9 @@ margin-bottom:45px;
 }
 
 .articlew__golink-container{
+  :hover{
 
+  }
 }
 .articlew__go-link{
   color:#f26002;
@@ -35,8 +40,12 @@ margin-bottom:45px;
   border:2px solid #f26002;
   border-radius:22px;
   padding:10px 25px;
+  text-decoration:none;
   text-transform:capitalize;
   font-size:20px;
+  &:hover{
+    cursor:pointer;
+   }
 
 }
 
@@ -84,7 +93,7 @@ margin-bottom:45px;
   text-transform:capitalize;
   font-size:20px;
   margin:45px 0;
-    :hover{
+    &:hover{
       cursor:pointer;
      }
 }

@@ -8,13 +8,16 @@
   padding-bottom:45px;
 }
 .footer__icon-containter{
-backgrond-color:red;
+
 }
 .footer__scrollup-link{
   background-color:white;
-  display:inline;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   border-radius:50%;
-  padding:10px;
+  width:45px;
+  height:45px;
   box-shadow: 0 0 5px 2px rgba(0,0,0,0.75);
   transform:translate(-50%,-50%);
   position:absolute;
