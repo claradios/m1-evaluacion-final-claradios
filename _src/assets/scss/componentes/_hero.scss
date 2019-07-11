@@ -15,13 +15,15 @@ width:300px;
 grid-row:2/3;
 }
 .hero__title{
-  color:white;
+  color:$color-white;
+  font-family:$font-title;
   text-transform:uppercase;
   font-size:42px;
   margin:0;
 }
 .hero__subtitle{
-  color:white;
+  color:$color-white;
+  font-family:$font-text;
   font-size:16px;
 }
 .hero__arrow-containter{
@@ -29,10 +31,17 @@ grid-row:2/3;
   padding-bottom:50px;
 }
 .hero__arrow{
-  background-color:white;
+  background-color:$color-white;
   display:inline;
   border-radius:50%;
   padding:12px;
 }
-.hero__scrolldown-icon{
+.hero__arrow-link{
+
+
 }
+.hero__scrolldown-icon{
+  transform:translateY(30%)
+}
+
+

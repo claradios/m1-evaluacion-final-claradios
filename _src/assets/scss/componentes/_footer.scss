@@ -1,7 +1,7 @@
 .page__footer{
 
-  background-color:#304268;
-  color:white;
+  background-color:$color-dark-grey-blue;
+  color:$color-white;
   position:relative;
   text-align:center;
   padding-top:60px;
@@ -11,7 +11,7 @@
 
 }
 .footer__scrollup-link{
-  background-color:white;
+  background-color:$color-white;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -28,27 +28,44 @@
 
 }
 .footer__menu{
+  font-family:$font-text;
   font-size:16px;
 }
 .footer__menu-containter{
-  font-family:inherit;
+  font-family:$font-text;
+  text-transform:uppercase;
   list-style:none;
   margin:0;
   padding:0;
 }
 .footer__menu-item{
-  text-transform:uppercase;
+  padding:8px;
+
 }
 .footer__social-links{
   margin:30px 0;
 }
 .footer__social-container{
+  font-family:$font-text;
   padding:0;
   list-style:none;
+  text-transform:uppercase;
  }
 .footer__social-item{
-  text-transform:uppercase;
+  padding:8px;
 }
 .footer__small-elements{
+  font-family:$font-text;
   font-size:14px;
+ }
+.footer__small-year{
+  height:32px;
+
+}
+.footer__small-slogan{
+
+
+}
+.color-heart{
+  color:$color-brightorange;
 }
