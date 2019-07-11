@@ -1,7 +1,9 @@
-@import 'core/settings';
-@import 'core/links';
+@import 'componentes/_variables.scss';
+@import 'componentes/_header.scss';
+@import 'componentes/_main-page.scss';
+@import 'componentes/_footer.scss';
 
-body {
+.page {
 	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
 	margin: 0;
 	height: 100vh;
