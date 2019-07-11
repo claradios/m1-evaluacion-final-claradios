@@ -1,11 +1,16 @@
 .page__header{
   margin:0;
   padding:0;
+  :hover{
+    cursor:pointer;
+  }
 }
 .header__burger-button{
+  background-color:#0271bc;
+  border:none;
   position:fixed;
   margin:0;
-  padding:0;
   top:0;
   left:0;
+  padding:10px;
 }
