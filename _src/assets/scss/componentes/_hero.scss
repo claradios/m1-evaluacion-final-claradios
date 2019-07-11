@@ -13,6 +13,12 @@
 margin:auto;
 width:300px;
 grid-row:2/3;
+  @media all and (min-width:768px){
+    width:680px;
+  }
+  @media all and (min-width:768px){
+    width:730px;
+  }
 }
 .hero__title{
   color:$color-white;
@@ -20,6 +26,12 @@ grid-row:2/3;
   text-transform:uppercase;
   font-size:42px;
   margin:0;
+  @media all and (min-width:768px){
+    font-size:80px;
+  }
+  @media all and (min-width:1200px){
+    font-size:100px;
+  }
 }
 .hero__subtitle{
   color:$color-white;
