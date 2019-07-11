@@ -30,9 +30,7 @@ margin-bottom:45px;
 }
 
 .articlew__golink-container{
-  :hover{
 
-  }
 }
 .articlew__go-link{
   color:#f26002;
@@ -67,8 +65,10 @@ margin-bottom:45px;
   margin:0;
   padding:0;
 }
-.article__item-container{
+.article__reasons-item{
   margin-bottom:45px;
+}
+.article__item-container{
   margin:0 auto;
   width:180px;
 
@@ -92,7 +92,7 @@ margin-bottom:45px;
   padding:10px 25px;
   text-transform:capitalize;
   font-size:20px;
-  margin:45px 0;
+  margin-bottom:60px;
     &:hover{
       cursor:pointer;
      }
