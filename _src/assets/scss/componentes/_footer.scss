@@ -1,5 +1,4 @@
 .page__footer{
-
   background-color:$color-dark-grey-blue;
   color:$color-white;
   position:relative;
@@ -44,6 +43,12 @@
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  :hover{
+    animation-name: arrowuphover;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
 }
 
 @keyframes arrowup {
@@ -53,7 +58,7 @@
   }
   50% {box-shadow: 0 0 30px rgba(black, .5);
     transform:translate(-50%,-25%);
-    background-color:yellow;
+    background-color:lightgreen;
   }
   85% {
     box-shadow: 0 0 40px rgba(black, .25);

@@ -1,13 +1,17 @@
 /*article window*/
 #first-article{
-  transform:translateY(-500px)
+
 }
 
 .main__article-window{
   background-color:$color-white;
+  padding-top:30px;
   padding-bottom:45px;
   @media all and (min-width:768px){
     padding-bottom:70px;
+  }
+  @media all and (min-width:1200px){
+    padding-top:60px;
   }
 }
 
@@ -15,14 +19,11 @@
   color:$color-lightblue;
   font-family:$font-text;
   font-size:14px;
-  margin-top:30px;
   font-weight:normal;
   text-transform:capitalize;
+  margin-top:0;
   @media all and (min-width:768x){
     font-size:16px;
-  }
-  @media all and (min-width:1200px){
-    margin-top:60px;
   }
 }
 
