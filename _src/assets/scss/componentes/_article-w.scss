@@ -6,7 +6,9 @@
 .main__article-window{
   background-color:$color-white;
   padding-bottom:45px;
-
+  @media all and (min-width:768px){
+    padding-bottom:70px;
+  }
 }
 
 .articlew__special-title{
@@ -16,8 +18,11 @@
   margin-top:30px;
   font-weight:normal;
   text-transform:capitalize;
-  @media all and (min-width:1200px){
+  @media all and (min-width:768x){
     font-size:16px;
+  }
+  @media all and (min-width:1200px){
+    margin-top:60px;
   }
 }
 
@@ -30,6 +35,7 @@
   margin-bottom:15px;
   @media all and (min-width:768px){
     font-size:26px;
+    margin-bottom:30px;
   }
   @media all and (min-width:1200px){
     font-size:32px;
