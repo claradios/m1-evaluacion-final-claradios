@@ -9,6 +9,9 @@
     @media all and (min-width:768px) {
       text-align:left;
     }
+    @media all and (min-width:1200px) {
+      padding-bottom:45px;
+    }
 }
 .footer__flex-container{
   @media all and (min-width:768px) {
@@ -17,6 +20,9 @@
     justify-content:space-between;
     align-items:flex-start;
     padding:0;
+  }
+  @media all and (min-width:1200px) {
+    justify-content:center;
   }
 }
 .footer__icon-containter{

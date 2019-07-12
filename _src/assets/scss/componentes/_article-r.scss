@@ -43,7 +43,7 @@
     width:220px;
     }
    @media all and (min-width:1200px) {
-    width:355px;
+    width:345px;
     }
 }
 .col1{
@@ -67,6 +67,7 @@
   margin-top:22;
   @media all and (min-width:768px){
     font-size:24px;
+    margin-bottom:15px;
     }
 }
 .article__reasons-text{
@@ -74,6 +75,7 @@
   font-family:$font-text;
   font-size:18px;
   margin:0;
+  line-height:1.5;
   @media all and (min-width:768px){
     font-size:20px;
     }
