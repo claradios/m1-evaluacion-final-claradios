@@ -67,6 +67,7 @@
 .footer__social-container{
   font-family:$font-text;
   padding:0;
+  margin:0;
   list-style:none;
   text-transform:uppercase;
  }
@@ -94,4 +95,8 @@
 }
 .color-heart{
   color:$color-brightorange;
+}
+.footer__link{
+  text-decoration:none;
+  color:$color-white;
 }

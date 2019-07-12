@@ -37,6 +37,9 @@ grid-row:2/3;
   color:$color-white;
   font-family:$font-text;
   font-size:16px;
+  @media all and (min-width:768px){
+    font-size:24px;
+  }
 }
 .hero__arrow-containter{
   grid-row:3/4;
