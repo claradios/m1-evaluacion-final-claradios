@@ -7,7 +7,7 @@
   .page__wrapper{
     margin:0 auto;
     max-width:1300px;
-    }
+  }
 }
 .articler__title{
   color:$color-black;
@@ -16,10 +16,10 @@
   margin-bottom:45px;
   margin-top:30px;
     @media all and (min-width:768px){
-    font-size:26px;
+      font-size:26px;
     }
     @media all and (min-width:1200px){
-    font-size:32px;
+      font-size:32px;
     }
 }
 .article__reasons-container{
@@ -28,9 +28,9 @@
   margin:0;
   padding:0;
     @media all and (min-width:768px) {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom:30px;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-bottom:30px;
   }
 }
 .article__reasons-item{
@@ -39,11 +39,11 @@
 .article__item-container{
   margin:0 auto;
   width:180px;
-    @media all and (min-width:768px) {
-    width:220px;
-    }
+   @media all and (min-width:768px) {
+      width:220px;
+   }
    @media all and (min-width:1200px) {
-    width:345px;
+     width:345px;
     }
 }
 .col1{
@@ -68,7 +68,7 @@
   @media all and (min-width:768px){
     font-size:24px;
     margin-bottom:15px;
-    }
+  }
 }
 .article__reasons-text{
   color:$color-black;
@@ -78,7 +78,7 @@
   line-height:1.5;
   @media all and (min-width:768px){
     font-size:20px;
-    }
+  }
 }
 .article__more-button{
   border: none;
@@ -98,10 +98,10 @@
      }
   @media all and (min-width:768px) {
       padding:12px 40px;
-    }
+  }
   @media all and (min-width:1200px) {
       padding:12px 60px;
-    }
+  }
 }
 
 
