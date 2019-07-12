@@ -59,16 +59,29 @@ margin-bottom:45px;
   text-transform:capitalize;
   font-size:20px;
   font-weight:800px;
+  transition:padding ease 0.5s, background-color ease 0.7s;
   &:hover{
     cursor:pointer;
+    padding:12px 26px;
+    background-color:darkorange;
+    color:darkslategrey;
+    border:2px solid darkslategrey;
    }
-   @media all and (min-width:768px){
+  @media all and (min-width:768px){
     padding-left:40px;
     padding-right:40px;
+    &:hover{
+      cursor:pointer;
+      padding:12px 43px;
+    }
   }
   @media all and (min-width:1200px){
-    padding-left:80px;
-    padding-right:80px;
+    padding:10px 70px;
+    &:hover{
+      cursor:pointer;
+      padding:12px 73px;
+    }
   }
 }
+
 

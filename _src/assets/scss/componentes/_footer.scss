@@ -34,7 +34,28 @@
   position:absolute;
   top:0;
   left:50%;
+  animation-name: flux;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
+@keyframes flux {
+  0% {
+    box-shadow: 0 0 4px rgba(black, .5);
+    transform:translate(-50%,-50%);
+  }
+  50% {box-shadow: 0 0 20px rgba(black, .5);
+    transform:translate(-50%,-25%);
+  }
+  85% {
+    box-shadow: 0 0 30px rgba(black, .2);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(black, .25);
+    transform:translate(-50%,-50%);
+  }
+}
+
 .footer__scrollup-icon{
 
 }
