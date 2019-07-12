@@ -4,6 +4,10 @@
   background-color:$color-iceblue;
   padding-top:30px;
   text-align:center;
+  .page__wrapper{
+    margin:0 auto;
+    max-width:1300px;
+    }
 }
 .articler__title{
   color:$color-black;
@@ -23,9 +27,10 @@
   text-align:center;
   margin:0;
   padding:0;
-  @media all and (min-width:768px) {
+    @media all and (min-width:768px) {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;}
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 .article__reasons-item{
   margin-bottom:45px;
@@ -33,19 +38,24 @@
 .article__item-container{
   margin:0 auto;
   width:180px;
-  @media all and (min-width:768px) {
-    width:220;}
-  @media all and (min-width:1200px) {
-    width:355;}
+    @media all and (min-width:768px) {
+    width:220px;
+    }
+   @media all and (min-width:1200px) {
+    width:355px;
+    }
 }
 .col1{
-  @media all and (min-width:768px) {grid-column:1/2;}
+  @media all and (min-width:768px) {grid-column:1/2;
+  }
  }
  .col2{
-  @media all and (min-width:768px) {grid-column:2/3;}
+  @media all and (min-width:768px) {grid-column:2/3;
+  }
  }
  .col3{
-  @media all and (min-width:768px) {grid-column:3/4;}
+  @media all and (min-width:768px) {grid-column:3/4;
+  }
  }
 
 .article__reasons-title{
@@ -85,11 +95,9 @@
      }
   @media all and (min-width:768px) {
       padding:12px 40px;
-
     }
   @media all and (min-width:1200px) {
       padding:12px 60px;
-
     }
 }
 
