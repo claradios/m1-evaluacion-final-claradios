@@ -28,7 +28,6 @@
 
 .footer__scrollup-link{
   background-color:$color-white;
-  display:flex;
   justify-content: center;
   align-items: center;
   border-radius:50%;
@@ -43,11 +42,15 @@
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  display:none;
   :hover{
     animation-name: arrowuphover;
     animation-duration: 1.5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+  }
+  @media all and (min-width:768px) {
+    display:flex;
   }
 }
 
@@ -112,6 +115,8 @@
 }
 
 .footer__small-elements{
+  display:flex;
+  flex-direction:column-reverse;
   font-family:$font-text;
   font-size:14px;
   @media all and (min-width:768px){
